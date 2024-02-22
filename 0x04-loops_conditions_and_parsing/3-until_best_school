@@ -2,7 +2,7 @@
 #printing ten times with until
 
 count=0
-until (( $count>=10 ))
+until (( count>=10 ))
 do
 	echo "Best School"
 	((count++))
