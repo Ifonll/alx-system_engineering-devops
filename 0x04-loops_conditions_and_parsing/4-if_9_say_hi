@@ -7,7 +7,7 @@ while (($count < 10))
 do
     if(($count == 9))
     then
-    echo "Hi"
+        echo "Hi"
     fi
 	echo "Best School"
 	count=$((count + 1))
