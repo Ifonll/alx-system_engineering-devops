@@ -2,4 +2,4 @@
 #printing only processes' PID with bash
 
 
-echo $$ bash
+ pgrep bash -l
