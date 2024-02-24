@@ -16,5 +16,5 @@ do
     echo "bad luck from Italy"
     ;;
     esac
-    ((n++))
+    ((n = n + 1))
 done
