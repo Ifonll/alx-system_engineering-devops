@@ -4,22 +4,16 @@
 n=1
 while ((n <= 20))
 do
-
+    echo $n
     case $n in
     4)
-    echo $n
     echo "bad luck from China"
     ;;
     9)
-    echo $n
     echo "bad luck from Japan"
     ;;
     17)
-    echo $n
     echo "bad luck from Italy"
-    ;;
-    *)
-    echo $n
     ;;
     esac
     ((n++))
