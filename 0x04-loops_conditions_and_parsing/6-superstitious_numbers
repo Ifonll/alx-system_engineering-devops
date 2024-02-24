@@ -2,7 +2,7 @@
 #number iteration
 
 n=1
-while (($n <= 20))
+while ((n <= 20))
 do
 
     case $n in
