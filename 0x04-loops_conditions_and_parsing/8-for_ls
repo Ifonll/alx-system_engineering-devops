@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#printing the content of the directory
+
+for ((file in *))
+do
+echo i
+done
