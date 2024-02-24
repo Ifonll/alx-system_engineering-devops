@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#printing only processes' PID with bash
+
+
+echo $$ bash
