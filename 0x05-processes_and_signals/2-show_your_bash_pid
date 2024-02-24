@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#printing only processes with bash
+
+ps auxf | grep bash
