@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #printing the content of the directory
 
-for i in *
+directory=$(ls)
+for i in $directory
 do
-echo $i | cut -d "-" -f2
+echo "$i" | cut -d "-" -f2
 done
