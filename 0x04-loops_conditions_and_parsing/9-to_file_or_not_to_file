@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#informing about the file school
+
+currdir=$(ls)
+if school not in "$currdir"
+then
+echo "school file does not exist""
+else
+echo "school file exists"
+fi
